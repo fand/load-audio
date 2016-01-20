@@ -1,11 +1,23 @@
 {
   "name": "load-audio",
-  "version": "0.0.1",
   "description": "Load AudioBuffer from given URL",
+  "version": "0.0.1",
+  "author": "fand",
+  "bugs": {
+    "url": "https://github.com/fand/load-audio/issues"
+  },
+  "homepage": "https://github.com/fand/load-audio",
+  "keywords": [
+    "audio",
+    "webaudio"
+  ],
+  "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fand/load-audio.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "MIT"
+  }
 }
