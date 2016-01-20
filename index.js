@@ -47,6 +47,6 @@ function decodeAudio (ctx, arrayBuffer) {
  * @param {string}       url
  * @return {Promise<AudioBuffer>}
  */
-module.exports = function loadAudio () {
-  return fetchAudio(url).then(decodeAudio);
+module.exports = function loadAudio (ctx, url) {
+  return fetchAudio(url).then((res) => decodeAudio(ctx, res));
 };
