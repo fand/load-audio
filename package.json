@@ -1,0 +1,11 @@
+{
+  "name": "load-audio",
+  "version": "0.0.1",
+  "description": "Load AudioBuffer from given URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
