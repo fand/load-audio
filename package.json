@@ -1,5 +1,5 @@
 {
-  "name": "load-audio",
+  "name": "@fand/load-audio",
   "description": "Load AudioBuffer from given URL",
   "version": "0.0.1",
   "author": "fand",
